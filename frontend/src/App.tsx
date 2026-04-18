@@ -108,7 +108,7 @@ function App() {
 
         <div style={{ textAlign: 'left', marginTop: '2rem' }}>
           <label>Loading States & Sizes (Independent)</label>
-          <div className="button-grid">
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
             <SimulatedButton variant="primary" size="sm">
               Small
             </SimulatedButton>
